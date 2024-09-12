@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Poppins', serif;
+    height: 100vh;
+    width: 100vw;
+    font-size: 16px;
+    background-image: url("/images/bg-intro-desktop.png");
+    background-color: hsl(0, 100%, 74%, 0.8);
+}
+
+#container {
+    display: flex;
+    width: 100%;
+    padding: 25vh 10vw;
+}
+
+#info {
+    width: 45vw;
+    top: 3vh;
+}
+
+#info__content {
+    margin-top: 2vh;
+    font-size: large;
+}
+
+#info__header {
+    font-size: 50px;
+}
+
+#form {
+    width: 30vw;
+}
+
+.form__content {
+    background-color: hsla(246, 25%, 77%, 0.1);
+    padding: 20px;
+}
+
+.form__ad {
+    padding: 5px;
+    background-color: hsl(248, 32%, 49%);
+    text-align: center;
+    color: hsl(246, 25%, 77%);
+    border-radius: 4px;
+    margin-bottom: 2vh;
+    box-shadow: 2px 2px 4px hsl(246, 25%, 77%);
+}
+.form__ad:hover {
+    border:3px solid hsl(0, 100%, 74%);
+}
+
+#form>input {
+    display: inline-block;
+    width: 90%;
+    contain: content;
+    border-width: 1px;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+#form>input:hover {
+    border-color: hsl(248, 32%, 49%);
+}
+
+#submit {
+    text-align: center;
+    width: 90%;
+    background-color: hsl(154, 59%, 51%);
+    border: 0px;
+    padding: 8px;
+    color: white;
+    box-shadow: 4px 4px 4px hsla(154, 59%, 51%, 0.3);
+}
+#submit:hover {
+    background-color: hsl(154, 59%, 51%, 0.6);
+}
+#form__tnc {
+    font-size: xx-small;
+    padding: 1vh;
+}
+
+#form__tnc>strong {
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    color: hsl(0, 100%, 74%);
+}
